@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("./fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("./fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("./fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Italic";
+    src: url("./fonts/Roboto-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium Italic";
+    src: url("./fonts/Roboto-MediumItalic.ttf");
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color :transparent;
+    -fx-border-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-border-radius :2.0em;
+}
+
+
+.scroll-bar:horizontal .increment-button ,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 0.0 10.0 0.0;
+
+}
+
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 10.0 0.0 0.0;
+
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow{
+    -fx-shape : " ";
+    -fx-padding :0.15em 0.0;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+    -fx-shape : " ";
+    -fx-padding :0.0 0.15em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color :derive(black,90.0%);
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color :derive(#4D4C4F,10.0%);
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+#background {
+    -fx-background-color: #FFFFFF;
+}
+
+/* Form Style*/
+#formDescription {
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 20px;
+}
+
+#formTextInput {
+    -fx-font-family: "Roboto Medium Italic";
+    -fx-font-size: 22px;
+    -fx-border-color: rgba(0,0,0,0);
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+#formChoiceBox {
+    -fx-font-family: "Roboto Medium Italic";
+    -fx-font-size: 22px;
+    -fx-border-color: rgba(0,0,0,0);
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+#formQuestion {
+    -fx-font-family: "Roboto Regular";
+    -fx-font-size: 22px;
+}
+
+#formErrorMessage {
+    -fx-font-family: "Roboto Regular";
+    -fx-font-size: 16px;
+    -fx-fill: #E02020;
+}
+
+#formButton {
+    -fx-font-family: "Roboto Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: #000;
+    -fx-background-color: #DEE3E4;
+    -fx-background-radius: 5 5 5 5;
+}
+
+#formButton:hover {
+    -fx-font-family: "Roboto Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: #000;
+    -fx-background-color: #FFF;
+    -fx-background-radius: 5 5 5 5;
+}
+
+/* Home Style */
+#homeTitle {
+    -fx-font-family: "Roboto Bold";
+    -fx-font-size: 40px;
+    -fx-fill: #FFFFFF;
+}
+
+#homeSubtitle {
+    -fx-font-family: "Roboto Medium";
+    -fx-font-size: 22px;
+    -fx-fill: #FFFFFF;
+}
+
+/* Payback Style */
+#paybackTitle {
+    -fx-font-family: "Roboto Bold";
+    -fx-font-size: 40px;
+    -fx-fill: #000000;
+}
+
+#paybackSubtitle {
+    -fx-font-family: "Roboto Regular";
+    -fx-font-size: 22px;
+    -fx-fill: #000000;
+}
+
+#paybackTable {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 8, 0, 8, 8);
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 10 10 10 10;
+}
+
+#paybackTableValues {
+    -fx-font-family: "Roboto Regular";
+    -fx-font-size: 20px;
+    -fx-fill: #636363;
+}
+
+#paybackTableString{
+    -fx-font-family: "Roboto Regular";
+    -fx-font-size: 20px;
+    -fx-fill: #000;
+}
+
+#paybackTableInput {
+    -fx-font-family: "Roboto Medium Italic";
+    -fx-font-size: 20px;
+    -fx-border-color: #FFF;
+    -fx-background-color: #FFF;
+}
+
+#paybackScroll {
+    -fx-border-color: #fff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 8, 0, 8, 8);
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 10 10 10 10;
+}
+

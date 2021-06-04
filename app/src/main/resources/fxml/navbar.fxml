@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="720.0" prefWidth="110.0" style="-fx-background-color: #5C7179;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administracion.interfaces.navbar.NavbarController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="60.0" layoutX="25.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/4x/logo@4x.png" />
+         </image>
+      </ImageView>
+      <VBox layoutY="231.0" prefWidth="110.0">
+         <children>
+            <Pane fx:id="paneHome" onMouseClicked="#navigateHome" prefHeight="43.0" prefWidth="110.0">
+               <children>
+                  <ImageView id="selector" fx:id="background" fitHeight="43.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../img/4x/hover@4x.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView id="homeLogo" fx:id="homeLogo" fitHeight="150.0" fitWidth="28.0" layoutX="39.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/4x/home@4x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="panePayback" onMouseClicked="#navigatePayback" prefHeight="43.0" prefWidth="110.0">
+               <children>
+                  <ImageView id="selector" fx:id="background" fitHeight="43.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../img/4x/hover@4x.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView id="paybackIcon" fx:id="paybackLogo" fitWidth="26.0" layoutX="41.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/4x/payback@4x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="paneNPV" onMouseClicked="#navigateNpv" prefHeight="43.0" prefWidth="110.0">
+               <children>
+                  <ImageView id="selector" fx:id="background" fitHeight="43.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../img/4x/hover@4x.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView id="npvIcon" fx:id="npmLogo" fitWidth="30.0" layoutX="41.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/4x/npv@4x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="paneCheck" onMouseClicked="#navigateChecklist" prefHeight="43.0" prefWidth="110.0">
+               <children>
+                  <ImageView id="selector" fx:id="background" fitHeight="43.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../img/4x/hover@4x.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView id="checklistIcon" fx:id="checklistLogo" fitWidth="29.0" layoutX="40.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/4x/checklist@4x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="paneDepreciation" onMouseClicked="#navigateDepreciation" prefHeight="43.0" prefWidth="110.0">
+               <children>
+                  <ImageView id="selector" fx:id="background" fitHeight="43.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../img/4x/hover@4x.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView id="depreciationIcon" fx:id="depreciationLogo" fitWidth="29.0" layoutX="42.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/4x/depreciation@4x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="paneMatrix" onMouseClicked="#openMatrix" prefHeight="43.0" prefWidth="110.0">
+               <children>
+                  <ImageView id="selector" fx:id="background" fitHeight="43.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../img/4x/hover@4x.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="matrixLogo" fitWidth="29.0" layoutX="42.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/4x/matrix@4x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

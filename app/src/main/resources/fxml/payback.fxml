@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administracion.interfaces.payback.PaybackController">
+   <children>
+      <BorderPane fx:id="borderPane" prefHeight="768.0" prefWidth="1366.0">
+         <left>
+            <Pane prefHeight="200.0" prefWidth="110.0" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text id="paybackTitle" layoutX="34.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payback Period">
+                     <font>
+                        <Font name="System Bold" size="40.0" />
+                     </font>
+                  </Text>
+                  <TextFlow layoutX="34.0" layoutY="90.0" prefHeight="67.0" prefWidth="1150.0">
+                     <children>
+                        <Text id="paybackSubtitle" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. ">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </TextFlow>
+                  <HBox id="paybackTable" layoutX="34.0" layoutY="168.0">
+                     <children>
+                        <Text id="paybackTableValues" strokeType="OUTSIDE" strokeWidth="0.0" text="Period">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="60.0" />
+                           </HBox.margin>
+                        </Text>
+                        <TextFlow prefWidth="188.0">
+                           <children>
+                              <Text id="paybackTableValues" strokeType="OUTSIDE" strokeWidth="0.0" text="Inflow">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </TextFlow>
+                        <TextFlow prefWidth="198.0">
+                           <children>
+                              <Text id="paybackTableValues" strokeType="OUTSIDE" strokeWidth="0.0" text="Outflow">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </TextFlow>
+                        <TextFlow prefWidth="208.0">
+                           <children>
+                              <Text id="paybackTableValues" strokeType="OUTSIDE" strokeWidth="0.0" text="Cumulative CF">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </TextFlow>
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="40.0" right="40.0" top="15.0" />
+                     </padding>
+                  </HBox>
+                  <ScrollPane id="paybackScroll" fitToHeight="true" hbarPolicy="NEVER" layoutX="34.0" layoutY="229.0" prefHeight="478.0" prefWidth="810.0">
+                     <content>
+                        <VBox fx:id="vBoxCards" prefHeight="200.0" prefWidth="810.0" spacing="10.0" style="-fx-background-color: #FFF;" />
+                     </content>
+                  </ScrollPane>
+                  <VBox layoutX="896.0" layoutY="168.0" prefWidth="315.0" spacing="30.0">
+                     <children>
+                        <Pane>
+                           <children>
+                              <Text id="formDescription" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Periodos">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Text>
+                              <Line endX="300.0" layoutY="70.0" />
+                              <Text id="formErrorMessage" fx:id="errorPeriod" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seleccione un valor" visible="false">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                              <ChoiceBox id="formChoiceBox" fx:id="periodChoiceBox" layoutX="-15.0" layoutY="25.0" prefWidth="330.0" />
+                           </children>
+                        </Pane>
+                        <Pane>
+                           <children>
+                              <Text id="formDescription" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Principal">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Text>
+                              <TextField id="formTextInput" fx:id="principalTextField" layoutX="-15.0" layoutY="25.0" prefWidth="315.0">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </TextField>
+                              <Line endX="300.0" layoutY="70.0" />
+                              <Text id="formErrorMessage" fx:id="errorPrincipal" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solo se aceptan números positivos" visible="false">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </Pane>
+                        <Pane>
+                           <children>
+                              <Text id="formDescription" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tasa de Interes">
+                                 <font>
+                                    <Font size="22.0" />
+                                 </font>
+                              </Text>
+                              <TextField id="formTextInput" fx:id="interestTextField" layoutX="-15.0" layoutY="25.0" prefWidth="315.0">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </TextField>
+                              <Line endX="300.0" layoutY="70.0" />
+                              <Text id="formErrorMessage" fx:id="errorInterest" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No puede ser mayo a 100" visible="false">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </Pane>
+                        <Button id="formButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#cleanData" prefHeight="50.0" text="Limpiar">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button id="formButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#calculate" prefHeight="50.0" text="Calcular">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </center></BorderPane>
+   </children>
+</AnchorPane>

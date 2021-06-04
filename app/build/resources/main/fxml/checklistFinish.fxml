@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administracion.interfaces.checklist.CheckListFinish">
+   <children>
+      <BorderPane fx:id="borderPane" prefHeight="768.0" prefWidth="1366.0">
+         <left>
+            <Pane prefHeight="200.0" prefWidth="110.0" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <content>
+                <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                     <children>
+                        <Text id="paybackTitle" layoutX="35.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Checklist">
+                           <font>
+                              <Font size="50.0" />
+                           </font>
+                        </Text>
+                        <VBox layoutX="35.0" layoutY="110.0" prefWidth="530.0" spacing="30.0">
+                           <children>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="What specific organization strategy does this project align with?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question1" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="How will measure success?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question2" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the impact of not doing this project?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question3" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Where does the proposed project fit in our risk profile?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question4" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="When will the project shows result?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question5" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Is our organization culture right for this type of project?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question6" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Will we build or buy?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question7" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Is the timeline realistic?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question8" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the estimated cost of the project?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question9" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="How does this project interact with current projects?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question10" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Button id="formButton" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="350.0" text="Regresar" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="685.0" layoutY="110.0" prefWidth="530.0" spacing="30.0">
+                           <children>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="What business problem does the project solve?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question11" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Who is the project sponsor?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question12" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the project risk to our organization?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question13" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="What is the value of the project organization?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question14" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="What are the project objectives?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question15" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Will internal resources be available for this project?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question16" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="How long will this project take?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question17" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Will staff training be required?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question18" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Is this a new initiative or path of an existing initiative?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question19" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane prefWidth="200.0">
+                                 <children>
+                                    <TextFlow maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefWidth="530.0">
+                                       <children>
+                                          <Text id="formQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Is the technology available or new?">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </TextFlow>
+                                    <Line endX="530.0" layoutY="110.0" />
+                                    <Text fx:id="question20" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </center></BorderPane>
+   </children>
+</AnchorPane>

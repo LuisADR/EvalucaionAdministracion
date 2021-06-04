@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<HBox fx:id="card" alignment="CENTER_LEFT" prefWidth="810.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="30.0">
+         <children>
+            <Text id="paybackTableString" fx:id="periodText" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="30.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="100.0">
+         <children>
+            <Text id="paybackTableString" fx:id="yearText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="100.0">
+         <children>
+            <Text id="paybackTableString" fx:id="depRateText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="190.0">
+         <children>
+            <Text id="paybackTableString" fx:id="anualDepText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="190.0">
+         <children>
+            <Text id="paybackTableString" fx:id="accDepText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="190.0">
+         <children>
+            <Text id="paybackTableString" fx:id="valueLedgeText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="190.0">
+         <children>
+            <Text id="paybackTableString" fx:id="taxPerYearText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="20.0" top="5.0" />
+   </padding>
+</HBox>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<HBox fx:id="card" alignment="CENTER_LEFT" prefWidth="810.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="80.0">
+         <children>
+            <Text id="paybackTableString" fx:id="periodText" strokeType="OUTSIDE" strokeWidth="0.0" text="1 Año">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="35.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="220.0">
+         <children>
+            <Text id="paybackTableString" fx:id="inflowText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="220.0">
+         <children>
+            <Text id="paybackTableString" fx:id="outflowText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="220.0">
+         <children>
+            <Text id="paybackTableString" fx:id="cashflowText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+      <TextFlow maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="220.0">
+         <children>
+            <Text id="paybackTableString" fx:id="presentValueText" strokeType="OUTSIDE" strokeWidth="0.0" text="\$0.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets right="25.0" />
+         </HBox.margin>
+      </TextFlow>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="40.0" top="5.0" />
+   </padding>
+</HBox>
